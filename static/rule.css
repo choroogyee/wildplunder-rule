@@ -1,0 +1,12 @@
+table {
+    display: table;
+    border : 1px solid black;
+    border-collapse : collapse;
+    text-align : center;
+    width: 700px;
+    height: 600px;
+}
+
+tr.title {
+    background-color : #cccccc;
+}
