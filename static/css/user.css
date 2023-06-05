@@ -1,0 +1,40 @@
+*{padding:0; margin:0}
+li{list-style:none}
+a{text-decoration:none; font-size:14px};
+
+.menu {
+    width: 33.2%;
+    overflow: hidden;
+    margin: 150px auto;
+}
+
+.menu > li {
+    width: 33.2%;
+    float: left;
+    text-align: center;
+    line-height: 40px;
+    background-color: #5778ff;
+}
+.menu a {
+    color: #fff;
+}
+
+.submenu {
+    height: 0;
+    overflow: hidden;
+}
+
+h1 {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    margin:-150px 0 0 180px;
+    text-align: center;
+}
+
+p {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    margin:-100px 0 0 -220px;
+}

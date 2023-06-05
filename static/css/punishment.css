@@ -1,0 +1,50 @@
+*{padding:0; margin:0}
+li{list-style:none}
+a{text-decoration:none; font-size:14px};
+
+.menu {
+    width: 33.2%;
+    overflow: hidden;
+    margin: 150px auto;
+}
+
+.menu > li {
+    width: 33.2%;
+    float: left;
+    text-align: center;
+    line-height: 50px;
+    background-color: #5778ff;
+}
+.menu a {
+    color: #fff;
+}
+
+.submenu {
+    height: 0;
+    overflow: hidden;
+}
+
+table {
+    display: table;
+    border : 1px solid black;
+    border-collapse : collapse;
+    text-align : center;
+    width: 700px;
+    height: 600px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    margin:-150px 0 0 -240px
+}
+
+tr.title {
+    background-color : #cccccc;
+    
+}
+
+h1 {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    margin:-220px 0 0 20px
+}
